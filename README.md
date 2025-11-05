@@ -4,7 +4,11 @@ Este é um cartão de apresentação pessoal interativo, construído com React, 
 
 ## Demonstração ao Vivo
 
-[Insira o link da demonstração ao vivo aqui]
+[Live Demo](https://RFernandes10.github.io/-card-apresentacao-react/)
+
+## Screenshot
+
+<!-- Adicione uma captura de tela do seu projeto aqui. Exemplo: ![Screenshot](assets/screenshot.png) -->
 
 ## Recursos
 
