@@ -4,7 +4,7 @@ Este é um cartão de apresentação pessoal interativo, construído com React, 
 
 ## Demonstração ao Vivo
 
-[Live Demo](https://rfernandes10.github.io/portfolio/)
+[Live Demo](https://rfernandes10.github.io/card-apresentacao-react/)
 
 ## Screenshot
 
