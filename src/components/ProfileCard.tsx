@@ -1,6 +1,6 @@
 import React, { useState, type JSX } from "react";
-import { FaGithub, FaLinkedin, FaReact, FaJs, FaHtml5, FaCss3Alt, FaNodeJs, FaFigma, FaGitAlt, FaDatabase, FaCloudUploadAlt } from 'react-icons/fa';
-import { SiTypescript, SiTailwindcss, SiNextdotjs, SiJest, SiRedux, SiExpress, SiPrisma } from 'react-icons/si';
+import { FaGithub, FaLinkedin, FaReact, FaJs, FaHtml5, FaCss3Alt, FaNodeJs, FaFigma, FaGitAlt, FaDatabase, FaCloudUploadAlt, FaDocker, FaCoffee } from 'react-icons/fa';
+import { SiTypescript, SiTailwindcss, SiNextdotjs, SiJest, SiRedux, SiExpress, SiPrisma, SiMongodb, SiPostgresql, SiGithubactions } from 'react-icons/si';
 
 interface ProfileCardProps {
   name: string;
@@ -20,19 +20,21 @@ const skillIcons: { [key: string]: JSX.Element } = {
   CSS: <FaCss3Alt className="text-blue-600" />,
   TailwindCSS: <SiTailwindcss className="text-teal-400" />,
   NodeJs: <FaNodeJs className="text-green-500" />,
-  NextJs: <SiNextdotjs className="text-gray-700" />,
+  'Next.js': <SiNextdotjs className="text-gray-700" />,
   Figma: <FaFigma className="text-purple-500" />,
   Git: <FaGitAlt className="text-orange-600" />,
+  GitHub: <FaGithub className="text-black" />,
+  'GitHub Actions': <SiGithubactions className="text-blue-500" />,
   Jest: <SiJest className="text-red-600" />,
   Redux: <SiRedux className="text-purple-500" />,
-  SQL: <FaDatabase className="text-blue-400" />,
-  NoSQL: <FaDatabase className="text-green-400" />,
-  PostgreSQL: <FaDatabase className="text-blue-700" />,
-  MongoDB: <FaDatabase className="text-green-600" />,
+  MongoDB: <SiMongodb className="text-green-600" />,
+  PostgreSQL: <SiPostgresql className="text-blue-700" />,
   Postman: <FaDatabase className="text-orange-400" />,
   Express: <SiExpress className="text-gray-500" />,
   Deploy: <FaCloudUploadAlt className="text-blue-400" />,
   Prisma: <SiPrisma className="text-gray-600" />,
+  Docker: <FaDocker className="text-blue-600" />,
+  'Movido a Café': <FaCoffee className="text-yellow-700" />,
   'Context API': <FaReact className="text-blue-400" />,
 };
 
@@ -81,7 +83,7 @@ const ProfileCard: React.FC<ProfileCardProps> = ({
         {/* Back of the card */} 
         <div className="absolute w-full h-full backface-hidden bg-card-background backdrop-filter backdrop-blur-lg rounded-xl shadow-lg p-6 flex flex-col items-center justify-center border border-border rotate-y-180">
           <h3 className="text-xl font-bold text-text-primary mb-4">Skills</h3>
-          <div className="grid grid-cols-3 gap-4 text-text-secondary">
+          <div className="grid grid-cols-4 gap-2 text-text-secondary">
             {skills.map((skill, index) => (
               <div
                 key={index}
