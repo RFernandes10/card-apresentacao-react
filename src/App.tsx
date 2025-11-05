@@ -18,7 +18,7 @@ function App() {
         name="Roberto Fernandes"
         title="Desenvolvedor Fullstack"
         bio="Sou um desenvolvedor apaixonado por criar soluções inovadoras e eficientes. Com experiência em diversas tecnologias, busco sempre aprender e aplicar as melhores práticas."
-        profileImage="/perfil.jpeg"
+        profileImage="./perfil.jpeg"
         githubUrl="https://github.com/RFernandes10"
         linkedinUrl="https://www.linkedin.com/in/roberto-wolowitz/"
         skills={[
