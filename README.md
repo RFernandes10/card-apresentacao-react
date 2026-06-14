@@ -1,148 +1,223 @@
-# 🎴 Card Apresentação React
-
-Cartão de perfil pessoal interativo e responsivo construído com **React, TypeScript e Tailwind CSS**, apresentando animações 3D e múltiplos temas.
+# Card Apresentação React
 
 <div align="center">
-  [![Live Demo](https://img.shields.io/badge/🌐%20Demo%20ao%20Vivo-0A0E17?style=for-the-badge&logo=github&logoColor=white)](https://rfernandes10.github.io/card-apresentacao-react/)
-  [![Licença MIT](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
-  <br/>
-  [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
-  [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-  [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
-  [![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+
+Cartão de perfil pessoal interativo construído com **React 19, TypeScript e Tailwind CSS**.  
+Apresenta animação de flip 3D, glassmorfismo e três temas alternáveis — pronto para ser personalizado e publicado.
+
+[![Live Demo](https://img.shields.io/badge/Demo%20ao%20Vivo-0A0E17?style=for-the-badge&logo=github&logoColor=white)](https://rfernandes10.github.io/card-apresentacao-react/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
+[![React](https://img.shields.io/badge/React-19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.9-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Vite](https://img.shields.io/badge/Vite-7-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+
 </div>
 
 ---
 
-## ✨ Recursos e Funcionalidades
-
-### 🎨 Design Moderno
-- **Glassmorfismo:** Efeito visual moderno com transparência e blur
-- **Animação 3D:** Efeito de virar o cartão para revelar mais informações
-- **Temas Alternáveis:** Três opções de tema (Claro, Escuro, Drácula)
-- **Ícones de Habilidades:** Representação visual rápida de tecnologias
-
-### 📱 Responsividade
-- **Mobile-First:** Experiência otimizada para dispositivos móveis
-- **Totalmente Responsivo:** Adaptação perfeita para qualquer tamanho de tela
-- **Interações Touch:** Suporte completo para gestos em dispositivos touch
-
-### ⚡ Performance
-- **Vite:** Build rápido e desenvolvimento com HMR
-- **Componentes Leves:** Código otimizado e eficiente
-- **Carregamento Rápido:** Imagens otimizadas e lazy loading
-
----
-
-## 📸 Screenshots
+## 🎬 Demo
 
 <div align="center">
-  <img src="./public/perfil.jpeg" alt="Card Apresentação - Frente" width="400px" style="border-radius: 10px; margin: 10px;"/>
-  <br/>
-  <em>Cartão na versão frontal com informações principais</em>
-</div>
 
-<div align="center">
-  <img src="./public/programmer.png" alt="Card Apresentação - Versão" width="400px" style="border-radius: 10px; margin: 10px;"/>
-  <br/>
-  <em>Tema com estilo programador</em>
+![Animação de flip do cartão](https://raw.githubusercontent.com/RFernandes10/card-apresentacao-react/main/.github/assets/demo-flip.gif)
+
 </div>
 
 ---
 
-## 🛠 Tecnologias Utilizadas
+## 🎨 Temas
 
-| Tecnologia | Descrição | Uso no Projeto |
-|------------|-----------|----------------|
-| **React 18** | Biblioteca para interfaces | Componentes e estado |
-| **TypeScript** | JavaScript tipado | Tipagem estática |
-| **Tailwind CSS** | Framework CSS utilitário | Estilização rápida |
-| **Vite** | Build tool moderna | Dev server e build |
-| **React Icons** | Biblioteca de ícones | Ícones de tecnologias |
+Frente do cartão em cada um dos três temas disponíveis.
+
+<div align="center">
+
+| Drácula | Claro | Escuro |
+|:---:|:---:|:---:|
+| ![Tema Drácula](https://raw.githubusercontent.com/RFernandes10/card-apresentacao-react/main/.github/assets/theme-dracula.png) | ![Tema Claro](https://raw.githubusercontent.com/RFernandes10/card-apresentacao-react/main/.github/assets/theme-light.png) | ![Tema Escuro](https://raw.githubusercontent.com/RFernandes10/card-apresentacao-react/main/.github/assets/theme-dark.png) |
+
+</div>
 
 ---
 
-## 🚀 Como Executar Localmente
+## 🔄 Verso (Skills)
 
-### Pré-requisitos
-- Node.js (v18+)
-- npm ou yarn
+Ao clicar no cartão, ele vira (flip 3D) e revela a grade de habilidades.
 
-### Passo a passo
+<div align="center">
 
-1. **Clone o repositório:**
-   ```bash
-   git clone https://github.com/RFernandes10/card-apresentacao-react.git
-   ```
+| Drácula | Claro | Escuro |
+|:---:|:---:|:---:|
+| ![Verso Drácula](https://raw.githubusercontent.com/RFernandes10/card-apresentacao-react/main/.github/assets/skills-dracula.png) | ![Verso Claro](https://raw.githubusercontent.com/RFernandes10/card-apresentacao-react/main/.github/assets/skills-light.png) | ![Verso Escuro](https://raw.githubusercontent.com/RFernandes10/card-apresentacao-react/main/.github/assets/skills-dark.png) |
 
-2. **Acesse a pasta do projeto:**
-   ```bash
-   cd card-apresentacao-react
-   ```
+</div>
 
-3. **Instale as dependências:**
-   ```bash
-   npm install
-   ```
+---
 
-4. **Execute o projeto em modo desenvolvimento:**
-   ```bash
-   npm run dev
-   ```
+## ✨ Features
 
-5. **Abra no navegador:**
-   ```
-   http://localhost:5173
-   ```
+- **Flip 3D** — clique no cartão para revelar o verso com a grade de habilidades
+- **Três temas** — Claro, Escuro e Drácula, alternados por um botão fixo
+- **Glassmorfismo** — efeito de transparência e blur via Tailwind CSS
+- **Ícones de skills** — mais de 20 tecnologias representadas visualmente com `react-icons`
+- **Acessibilidade** — cartão focável via teclado (`tabIndex`, `data-theme` no `<html>`)
+- **Mobile-first** — layout responsivo adaptado para qualquer tela
+- **Deploy automatizado** — publicação no GitHub Pages com um único comando
 
-### Scripts Disponíveis
+---
+
+## 🚀 Tecnologias
+
+| Tecnologia | Versão | Finalidade |
+|---|---|---|
+| React | 19 | Componentes e gerenciamento de estado |
+| TypeScript | 5.9 | Tipagem estática |
+| Tailwind CSS | 3.4 | Estilização utilitária |
+| Vite | 7 | Dev server com HMR e build de produção |
+| React Icons | 5.5 | Ícones de tecnologias no verso do cartão |
+| gh-pages | 6.3 | Deploy automatizado no GitHub Pages |
+
+---
+
+## 📦 Instalação
+
+**Pré-requisitos:** Node.js v18 ou superior.
+
+```bash
+# 1. Clone o repositório
+git clone https://github.com/RFernandes10/card-apresentacao-react.git
+
+# 2. Acesse a pasta
+cd card-apresentacao-react
+
+# 3. Instale as dependências
+npm install
+```
+
+---
+
+## ▶️ Executando o Projeto
+
+```bash
+npm run dev
+```
+
+Acesse [http://localhost:5173](http://localhost:5173) no navegador.
+
+### Scripts disponíveis
 
 | Comando | Descrição |
-|---------|-----------|
-| `npm run dev` | Inicia o servidor de desenvolvimento |
-| `npm run build` | Gera a build de produção |
-| `npm run preview` | Visualiza a build localmente |
-| `npm run lint` | Executa a verificação de código |
+|---|---|
+| `npm run dev` | Inicia o servidor de desenvolvimento com HMR |
+| `npm run build` | Compila TypeScript e gera a build de produção |
+| `npm run preview` | Visualiza a build de produção localmente |
+| `npm run lint` | Executa o ESLint no projeto |
+| `npm run deploy` | Faz build e publica no GitHub Pages |
 
 ---
 
-## 🌐 Demo ao Vivo
-
-🔗 **Acesse:** [https://rfernandes10.github.io/card-apresentacao-react/](https://rfernandes10.github.io/card-apresentacao-react/)
-
----
-
-## 🎯 Diferenciais
-
-- **Interatividade:** Animações suaves e resposta visual
-- **Personalização:** Fácil alteração de cores e temas
-- **Código Limpo:** Estruturado com melhores práticas
-- **Deploy Automático:** Integração com GitHub Pages
-- **Acessibilidade:** Elementos semânticos e navegação por teclado
-
----
-
-## 📂 Estrutura do Projeto
+## 🏗️ Estrutura do Projeto
 
 ```
 card-apresentacao-react/
+├── .github/
+│   └── assets/              # Assets de documentação (GIF, screenshots)
 ├── public/
-│   ├── perfil.jpeg        # Imagem de perfil
-│   ├── programmer.png     # Imagem tema programador
-│   └── index.html
+│   ├── perfil.jpeg          # Foto de perfil (frente do cartão)
+│   └── programmer.png       # Imagem auxiliar
 ├── src/
-│   ├── components/        # Componentes React
-│   ├── App.tsx           # Componente principal
-│   ├── main.tsx          # Ponto de entrada
-│   └── index.css        # Estilos globais
-├── tailwind.config.js    # Configuração Tailwind
-├── vite.config.ts        # Configuração Vite
-└── package.json         # Dependências
+│   ├── components/
+│   │   ├── ProfileCard.tsx  # Cartão com flip 3D e grade de skills
+│   │   └── ThemeSwitcher.tsx# Botão de alternância de tema
+│   ├── contexts/
+│   │   └── ThemeContext.tsx # Context API para gerenciamento de tema
+│   ├── App.tsx              # Componente raiz; aplica data-theme no <html>
+│   ├── main.tsx             # Ponto de entrada da aplicação
+│   └── index.css            # Variáveis CSS e estilos globais
+├── index.html               # HTML raiz (padrão Vite)
+├── tailwind.config.js       # Configuração do Tailwind
+├── vite.config.ts           # Configuração do Vite (base path para GitHub Pages)
+└── package.json
 ```
 
 ---
 
-## 📫 Contato
+## 🧩 Principais Componentes
+
+### `ProfileCard`
+
+| Prop | Tipo | Descrição |
+|---|---|---|
+| `name` | `string` | Nome exibido na frente do cartão |
+| `title` | `string` | Cargo ou título profissional |
+| `bio` | `string` | Breve descrição pessoal |
+| `profileImage` | `string` | Caminho para a foto de perfil |
+| `githubUrl` | `string` | URL do perfil no GitHub |
+| `linkedinUrl` | `string` | URL do perfil no LinkedIn |
+| `skills` | `string[]` | Lista de habilidades exibidas no verso |
+
+- **Frente:** foto, nome, título, bio e links sociais.
+- **Verso:** grade 4 colunas com ícone + nome de cada skill, com animação escalonada ao virar.
+
+### `ThemeSwitcher`
+
+Botão posicionado no canto superior direito. Cicla os temas na ordem: `dracula → light → dark → dracula`.
+
+### `ThemeContext`
+
+Context API que expõe `theme` e `toggleTheme`. O tema padrão é `dracula`. O valor é memoizado com `useMemo` para evitar re-renders desnecessários.
+
+---
+
+## 📚 Personalização
+
+Para usar o cartão com seus próprios dados, edite `src/App.tsx`:
+
+```tsx
+<ProfileCard
+  name="Seu Nome"
+  title="Seu Cargo"
+  bio="Sua descrição pessoal."
+  profileImage="./sua-foto.jpeg"
+  githubUrl="https://github.com/seu-usuario"
+  linkedinUrl="https://linkedin.com/in/seu-perfil"
+  skills={["React", "TypeScript", "Node.js"]}
+/>
+```
+
+Coloque sua foto na pasta `public/` e atualize o caminho em `profileImage`.
+
+---
+
+## 🚀 Deploy
+
+O projeto está configurado para o GitHub Pages. O `base` no `vite.config.ts` já aponta para o nome do repositório.
+
+```bash
+npm run deploy
+```
+
+Isso executa `npm run build` e publica o conteúdo de `dist/` na branch `gh-pages`.
+
+> **Atenção:** certifique-se de que o GitHub Pages está habilitado no repositório apontando para a branch `gh-pages`.
+
+---
+
+## 🤝 Contribuição
+
+1. Faça um fork do repositório
+2. Crie uma branch: `git checkout -b feat/minha-feature`
+3. Commit suas alterações: `git commit -m 'feat: adiciona minha feature'`
+4. Push para a branch: `git push origin feat/minha-feature`
+5. Abra um Pull Request
+
+---
+
+## 📄 Licença
+
+Distribuído sob a licença **MIT**. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
 
 <div align="center">
   <a href="https://www.linkedin.com/in/roberto-wolowitz/">
@@ -154,11 +229,7 @@ card-apresentacao-react/
   <a href="https://github.com/RFernandes10">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
-</div>
 
----
-
-<div align="center">
-  <h3>⭐ Se este projeto foi útil, considere dar uma estrela!</h3>
-  <p>Feito com ❤️ e ☕ por <strong>Roberto Fernandes</strong></p>
+  <br/><br/>
+  Feito com ❤️ por <strong>Roberto Fernandes</strong> — ⭐ se o projeto foi útil, deixe uma estrela!
 </div>
