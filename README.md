@@ -28,9 +28,17 @@ Cartão de apresentação profissional construído com **React 19, TypeScript e 
 
 <div align="center">
 
+**Frente (perfil)**
+
 | Drácula | Claro | Escuro |
 |:---:|:---:|:---:|
 | ![Tema Drácula](https://raw.githubusercontent.com/RFernandes10/card-apresentacao-react/main/.github/assets/theme-dracula.png) | ![Tema Claro](https://raw.githubusercontent.com/RFernandes10/card-apresentacao-react/main/.github/assets/theme-light.png) | ![Tema Escuro](https://raw.githubusercontent.com/RFernandes10/card-apresentacao-react/main/.github/assets/theme-dark.png) |
+
+**Verso (skills)**
+
+| Drácula | Claro | Escuro |
+|:---:|:---:|:---:|
+| ![Skills Drácula](https://raw.githubusercontent.com/RFernandes10/card-apresentacao-react/main/.github/assets/skills-dracula.png) | ![Skills Claro](https://raw.githubusercontent.com/RFernandes10/card-apresentacao-react/main/.github/assets/skills-light.png) | ![Skills Escuro](https://raw.githubusercontent.com/RFernandes10/card-apresentacao-react/main/.github/assets/skills-dark.png) |
 
 </div>
 
